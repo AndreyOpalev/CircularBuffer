@@ -1,11 +1,20 @@
-### Simple FIFO C-implementation
+# Circle buffer
 
-**NOT THREAD-SAFE**
+Simple, **not thread-safe** circle buffer implementation in C, though tested. The project is built to be used within various MCU firmwares.
 
-The project is build to be used within various MCU firmwares. 
+## Tests
+The unit-tests are based on CppUTest 3.8.
 
+Installing:
 
+    apt install cpputest libcpputest-dev
 
-### Build and usage
+Building:
 
-The section isn't complented yet. 
+    cd test
+    cmake ./
+    make
+
+Running:
+
+    ./AllTests
